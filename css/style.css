@@ -190,13 +190,13 @@ img {
 
 .cake-item .discount {
     position: absolute;
-    right: 222px;
-    bottom: 50;
+    right: 10;
+    bottom: 400;
     width: 100px;
     height: 100px;
     background-color: yellow;
     border-radius: 50%;
-    box-shadow: 0 10px 10px rgba(250, 134, 165, 0.5);
+    box-shadow: 0 3px 5px rgba(250, 134, 165, 0.5);
     font-size: 30px;
     font-family: 'Lobster';
 }
