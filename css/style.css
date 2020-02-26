@@ -35,7 +35,12 @@ img {
 }
 
 .products-menu {
-    margin: 30px 0;
+    z-index: 98;
+    margin-top: 23px;
+    position: fixed;
+    width: 100%;
+    padding: 20 0;
+    background-color: white;
 }
 
 .flex-wrap {
@@ -86,7 +91,7 @@ img {
     border-radius: 50px;
     border: 2px solid transparent;
     cursor: pointer;
-    color: black
+    color: white
 }
 
 .btn.btn-default {
@@ -97,8 +102,13 @@ img {
 
 .btn.btn-default:hover {
     background-color: white;
+    color: #FA86A5;
 }
 /* Default classes end */
+
+.cakes-wrap {
+    padding-top: 151;
+}
 
 .container {
     max-width: 1000px;
@@ -117,6 +127,11 @@ img {
 }
 
 #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
     padding: 20px 0;
     background-color: #fff;
     border-bottom: 3px solid #FA86A5;
